@@ -1,0 +1,107 @@
+*{
+   
+    box-sizing: border-box!important;
+}
+.contactus{
+    /* border:1px solid black; */
+    width: 80%;
+    margin:auto;
+}
+.map{ 
+    height:100%;
+    min-height:400px;
+    width: 450px;
+    margin-bottom: 100px!important;
+    border: 1px solid rgb(108, 200, 231);
+    border-style: inset;
+    border-width: 10px;
+    padding:10px;
+}
+
+.addstl{
+    display: flex; 
+    overflow: hidden;
+    gap:25px;
+}
+.icon{
+    color:rgb(9,142,73);
+}
+@media (max-width:475px) {
+    .addstl{
+        display: inline-block;
+    }
+    .line2{
+        display: none;
+    }
+}
+.listofconn{
+    color:black;
+}
+.arreg{
+    display: flex;
+    margin-bottom: 90px;
+    
+}
+.arg1{ 
+    width: 40%;
+}
+.arg2{
+    /* border: 1px solid black;; */
+    width: 60%;
+    padding:50px 20px ; 
+
+}
+.contactWrapper{
+    padding: 10px;;
+    border: 1px solid rgb(108, 200, 231);
+    border-style: inset;
+    border-width: 5px;
+    margin-bottom:25px;
+    background-color: rgba(59, 178, 178, 0.16);
+    /* width: 300px; */
+
+}
+.contactWrapper:hover{
+    background-color: rgba(59, 178, 178, 0.251);
+
+}
+@media (max-width:1380px) {
+    .arreg{
+        display: block;
+        margin: auto; 
+    }
+    .addstl{
+        width: 100%;
+    }
+    .map{ 
+        margin: auto;
+        height: 300px;
+        width: 500px;
+    }
+    .arg1{ 
+        width: 100%;
+    }
+    .arg2{ 
+        width: 100%;
+        padding:0px 50px ;
+        margin-bottom: 100px; 
+    }
+}
+@media (max-width:620px) {
+    .map{
+        height: 300px;
+        width: 400px;
+    }
+}
+@media (max-width:480px) {
+    .map{
+        height: 300px;
+        width: 300px;
+    }
+}
+@media (max-width:350px) {
+    .map{
+        height: 300px;
+        width: 200px;
+    }
+}

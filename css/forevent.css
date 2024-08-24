@@ -1,0 +1,106 @@
+*{
+  margin:0;
+  padding:0;
+}
+.eventTab{
+  margin: 20px 0px;
+}
+
+.borderset{
+  background-color: lightblue !important;
+}
+.tabs .active{
+  background: rgb(27, 164, 209)!important;
+  color: white!important;
+}
+
+.tabs a{
+  color: blue!important;
+  font-weight: 500;
+  font-size: 17px!important;
+}
+
+.arrowOpen{
+  float: right;
+  width: 15px;
+  font-size: 15px;
+}
+
+.collapsible-header{
+  position: relative;
+}
+
+.collapsible-header:hover{
+  background: lightblue!important
+}
+
+.collapsibleHeaderTitle{
+  padding: 0px 70px 0px 0px;
+}
+
+.centerThis{
+  display: block;
+  text-align: center;
+}
+
+.boldThis{
+  font-weight: bold!important;
+  color:black;
+}
+
+.arrowDown{
+  position: absolute;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.arrowUp{
+  position: absolute;
+  right: 10px;
+  display: none;
+  width: 20px;
+  height: 20px;
+}
+
+.notClicked .arrowUp{
+  display: none;
+}
+
+.notClicked .arrowDown{
+  display: block;
+}
+
+.clicked .arrowDown{
+  display: none;
+}
+
+.clicked .arrowUp{
+  display: block;
+}
+
+.setfix{
+  overflow: hidden;
+  /* box-shadow: rgba(155, 199, 199, 0.507) 6px 2px 16px 0px, rgba(115, 189, 213, 0.525) -6px -2px 16px 0px; */
+
+}
+.fontli{
+  font-weight: 900!important;
+  color: black !important;
+}
+.collapsible-body{
+  border:1px white solid;
+}
+p{
+  margin-top:20px;
+  line-height: 2rem;
+}
+.card-panel1{
+  /* border:1px solid aqua; */
+  padding:50px;
+  text-align: center;
+  margin-bottom: 50px;
+  background-color: lightsteelblue;
+  /* box-shadow: rgba(97, 187, 194, 0.6) 6px 2px 16px 0px, rgba(91, 171, 164, 0.5) -6px -2px 16px 0px; */
+
+}
